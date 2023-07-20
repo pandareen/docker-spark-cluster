@@ -35,11 +35,6 @@ docker build -t cluster-apache-spark:3.0.2 .
 docker tag cluster-apache-spark:3.0.2  cluster-apache-spark:3.0.2
 ```
 
-```sh
-docker build -t cluster-apache-spark:3.0.2 .
-```
-
-
 ## Run the docker-compose
 
 The final step to create your test cluster will be to run the compose file:
